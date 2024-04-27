@@ -10,6 +10,6 @@ class Customer(models.Model):
     corresp_isdn= models.CharField(max_length=100)
     duration= models.IntegerField(max_length=100)
     date_time= models.DateTimeField(max_length=100)
-
+    customer_name = models.CharField(max_length=1000, null= True) ## adding customer name to the database.
 
     
